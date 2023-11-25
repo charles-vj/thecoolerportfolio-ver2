@@ -23,7 +23,7 @@ export default function Footer() {
                 <div className="credits">
                     <div className="made-with">
                         Made with 🤍 and <Spacer x={1} />
-                        <Tooltip className="tooltip" content={'Caffiene!'} rounded hideArrow>
+                        <Tooltip className="tooltip" content={'Caffeine!'} rounded hideArrow>
                             <Image src={caffiene} width="80px" height="80px" />
                         </Tooltip>
                     </div>
