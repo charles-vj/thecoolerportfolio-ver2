@@ -14,7 +14,7 @@ import nextlogo from '../../public/images/next-logo.png'
 export default function About() {
 
     const getResume = () => {
-        window.open("https://docs.google.com/document/d/1ASQ_az6853Jgx_hjQJW72o7Xh8m0GUk1gH1uVEEHSY0/edit?usp=sharing")
+        window.open("https://drive.google.com/file/d/1RgVE8Gz73VaZknW-OKXpCiu3SOGetE0V/view?usp=sharing")
     }
 
     return (

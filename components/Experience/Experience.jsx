@@ -48,10 +48,10 @@ export default function Experience() {
                         <Tooltip className="tooltip" content={'Captain as well '} placement="right" hideArrow rounded>
                             <Text style={{ 'display': 'flex' }}>Emerging Player
                                 <span style={{ 'display': 'flex', 'marginLeft': '10px', 'display': 'flex', 'alignItems': 'center' }} >
-                                    <div className='expImgContainer'>
-                                        <Image className='expImage' layout='responsive' src={fi} />
-                                    </div>
-                                    <span style={{ 'color': 'rgb(0, 184, 153)' }}>Intersectionals</span>
+                                    {/* <div className='expImgContainer'>
+                                    
+                                    </div> */}
+                                    <span style={{ 'color': 'rgb(0, 184, 153)' }}>🌏Intersectionals</span>
                                 </span>
                             </Text>
                         </Tooltip>
@@ -59,10 +59,10 @@ export default function Experience() {
                         <Tooltip className="tooltip" content={'Intersectionals'} placement="right" hideArrow rounded>
                             <Text style={{ 'display': 'flex' }}>Winner
                                 <span style={{ 'display': 'flex', 'marginLeft': '10px', 'display': 'flex', 'alignItems': 'center' }} >
-                                    <div className='expImgContainer'>
+                                    {/* <div className='expImgContainer'>
                                         <Image className='expImage' layout='responsive' src={polygon} />
-                                    </div>
-                                    <span style={{ 'color': 'rgb(130, 71, 229)' }}>Table tennis</span>
+                                    </div> */}
+                                    <span style={{ 'color': 'rgb(130, 71, 229)' }}>💟Table tennis</span>
                                 </span>
                             </Text>
                         </Tooltip>
@@ -70,10 +70,10 @@ export default function Experience() {
                         <Tooltip className="tooltip" content={'Relay team'} placement="right" hideArrow rounded>
                             <Text style={{ 'display': 'flex' }}>Sprinter
                                 <span style={{ 'display': 'flex', 'marginLeft': '10px', 'display': 'flex', 'alignItems': 'center' }} >
-                                    <div className='expImgContainer'>
+                                    {/* <div className='expImgContainer'>
                                         <Image className='expImage' layout='responsive' src={mauka} />
-                                    </div>
-                                    <span style={{ 'color': 'rgb(40, 56, 145)' }}>Inter-IIIT</span>
+                                    </div> */}
+                                    <span style={{ 'color': 'rgb(40, 120, 145)' }}>🏃‍♂️Inter-IIIT</span>
                                 </span>
                             </Text>
                         </Tooltip>
@@ -81,10 +81,10 @@ export default function Experience() {
                         <Tooltip className="tooltip" content={"IIIT Kottayam"} placement="right" hideArrow rounded>
                             <Text style={{ 'display': 'flex' }}>Captain
                                 <span style={{ 'display': 'flex', 'marginLeft': '10px', 'display': 'flex', 'alignItems': 'center' }} >
-                                    <div className='expImgContainer'>
+                                    {/* <div className='expImgContainer'>
                                         <Image className='expImage' layout='responsive' src={msc} />
-                                    </div>
-                                    <span style={{ 'color': 'rgb(1, 118, 211)' }}>College Basketball Team</span>
+                                    </div> */}
+                                    <span style={{ 'color': 'rgb(1, 118, 211)' }}>🧊College Basketball Team</span>
                                 </span>
                             </Text>
                         </Tooltip>
