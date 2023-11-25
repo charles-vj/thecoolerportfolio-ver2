@@ -17,7 +17,7 @@ import { Tooltip, Text, Row, Col, Grid, Button } from '@nextui-org/react';
 export default function Experience() {
     return (
         <div className="experience">
-            <h1 className="exp-header">experience</h1>
+            <h1 className="exp-header">Play</h1>
 
             <Container className="exp-cont">
                 <Fade bottom duration={2000}>
@@ -51,7 +51,7 @@ export default function Experience() {
                                     {/* <div className='expImgContainer'>
                                     
                                     </div> */}
-                                    <span style={{ 'color': 'rgb(0, 184, 153)' }}>🌏Intersectionals</span>
+                                    <span style={{ 'color': 'rgb(0, 184, 153)' }}>🌏Inter-sec</span>
                                 </span>
                             </Text>
                         </Tooltip>
@@ -84,7 +84,7 @@ export default function Experience() {
                                     {/* <div className='expImgContainer'>
                                         <Image className='expImage' layout='responsive' src={msc} />
                                     </div> */}
-                                    <span style={{ 'color': 'rgb(1, 118, 211)' }}>🧊College Basketball Team</span>
+                                    <span style={{ 'color': 'rgb(1, 118, 211)' }}>🧊UG Basketball</span>
                                 </span>
                             </Text>
                         </Tooltip>

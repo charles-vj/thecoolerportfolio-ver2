@@ -9,7 +9,7 @@ import { Container } from '@mui/material'
 export default function Contact() {
     return (
         <div className="contact" id="contact">
-            <h1 className="contact-header">Contact</h1>
+            <h1 className="contact-header">Reach</h1>
             <Container className="contact-container">
                 {/* <h1 className="contact-text">Hit me Up</h1> */}
                 <Grid.Container gap={2} justify="center">
