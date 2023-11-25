@@ -15,7 +15,7 @@ export default function Landing() {
                             <h3 className="landing-h3">Hello, I&apos;m </h3>
                         </Fade>
                         <Fade duration={2500} delay={1000}>
-                            <h1 className="landing-h1">Charles V J</h1>
+                            <h1 className="landing-h1">Charles</h1>
                         </Fade>
             </Container>
         </div>
