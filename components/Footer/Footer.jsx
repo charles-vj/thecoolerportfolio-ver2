@@ -18,10 +18,6 @@ export default function Footer() {
         <div className="footer">
             <Container>
                 <div className="socials">
-                    <a href="https://twitter.com/arn4b_"><FiTwitter className="social-icon" /></a>
-                    <a href="https://github.com/arn4b"><FiGithub className="social-icon" /></a>
-                    <a href="https://www.linkedin.com/in/arnab-chatterjee-3944341a0/"><FiLinkedin className="social-icon" /></a>
-                    <a href="https://www.polywork.com/arn4b"><SiPolywork className="social-icon" /></a>
                 </div>
 
                 <div className="credits">
@@ -33,17 +29,6 @@ export default function Footer() {
                     </div>
 
                     <Spacer x={3} />
-
-                    <div className="hr"></div>
-
-                    <Spacer x={3} />
-
-                    <div className="powered">
-                        <div>Powered By</div>
-                        <div className="next-logos">
-                            <Image src={next} width="125px" height="70px" /><Spacer x={1} /> and <Spacer x={1} /><Image src={nextui} width="125px" height="60px" />
-                        </div>
-                    </div>
                 </div>
             </Container>
 

@@ -8,14 +8,10 @@ export default function Navbar() {
       <div className="navbar">
         <h1 className="navbar-text">
           <Link href="/">
-            A.
+            C.
           </Link></h1>
         <div className="navbar-items">
-          <h3 className="navbar-items-text">
-            <Link href="/uses">
-              Uses
-            </Link>
-          </h3>
+          
         </div>
       </div>
     </Fade>

@@ -17,7 +17,7 @@ import { Tooltip, Text, Row, Col, Grid, Button } from '@nextui-org/react';
 export default function Experience() {
     return (
         <div className="experience">
-            <h1 className="exp-header">Work</h1>
+            <h1 className="exp-header">experience</h1>
 
             <Container className="exp-cont">
                 <Fade bottom duration={2000}>
@@ -34,79 +34,68 @@ export default function Experience() {
                             </Text>
                         </Tooltip> */}
 
-                        <Tooltip className="tooltip" content={<div> Aug&apos;23 - Present <br /> SWE Intern : May&apos;23 - Aug&apos;23</div>} placement="right" hideArrow rounded>
-                            <Text style={{ 'display': 'flex' }}>SWE
+                        <Tooltip className="tooltip" content={<div> Played all possible sports</div>} placement="right" hideArrow rounded>
+                            <Text style={{ 'display': 'flex' }}>Basketball winner
                                 <span style={{ 'display': 'flex', 'marginLeft': '10px', 'display': 'flex', 'alignItems': 'center' }} >
                                     <div className='expImgContainer'>
                                         <Image className='expImage' layout='responsive' src={push} />
                                     </div>
-                                    <span style={{ "background": "-webkit-linear-gradient(0deg, rgba(224,61,193,1) 0%, rgba(130,71,229,1) 62%, rgba(255,148,166,1) 100%)", "WebkitBackgroundClip": "text", "WebkitTextFillColor": "transparent" }}> Push Protocol</span>
+                                    <span style={{ "background": "-webkit-linear-gradient(0deg, rgba(224,61,193,1) 0%, rgba(130,71,229,1) 62%, rgba(255,148,166,1) 100%)", "WebkitBackgroundClip": "text", "WebkitTextFillColor": "transparent" }}> JPL</span>
                                 </span>
                             </Text>
                         </Tooltip>
 
-                        <Tooltip className="tooltip" content={'Jul \'22 - Apr \'23 '} placement="right" hideArrow rounded>
-                            <Text style={{ 'display': 'flex' }}>Senior SWE Intern
+                        <Tooltip className="tooltip" content={'Captain as well '} placement="right" hideArrow rounded>
+                            <Text style={{ 'display': 'flex' }}>Emerging Player
                                 <span style={{ 'display': 'flex', 'marginLeft': '10px', 'display': 'flex', 'alignItems': 'center' }} >
                                     <div className='expImgContainer'>
                                         <Image className='expImage' layout='responsive' src={fi} />
                                     </div>
-                                    <span style={{ 'color': 'rgb(0, 184, 153)' }}> Fi Money</span>
+                                    <span style={{ 'color': 'rgb(0, 184, 153)' }}>Intersectionals</span>
                                 </span>
                             </Text>
                         </Tooltip>
 
-                        <Tooltip className="tooltip" content={'Jan \'22 - Jul\'22 '} placement="right" hideArrow rounded>
-                            <Text style={{ 'display': 'flex' }}>SWE Intern
+                        <Tooltip className="tooltip" content={'Intersectionals'} placement="right" hideArrow rounded>
+                            <Text style={{ 'display': 'flex' }}>Winner
                                 <span style={{ 'display': 'flex', 'marginLeft': '10px', 'display': 'flex', 'alignItems': 'center' }} >
                                     <div className='expImgContainer'>
                                         <Image className='expImage' layout='responsive' src={polygon} />
                                     </div>
-                                    <span style={{ 'color': 'rgb(130, 71, 229)' }}> Polygon Labs</span>
+                                    <span style={{ 'color': 'rgb(130, 71, 229)' }}>Table tennis</span>
                                 </span>
                             </Text>
                         </Tooltip>
 
-                        <Tooltip className="tooltip" content={'July \'21 - Sep \'21'} placement="right" hideArrow rounded>
-                            <Text style={{ 'display': 'flex' }}>Frontend Intern
+                        <Tooltip className="tooltip" content={'Relay team'} placement="right" hideArrow rounded>
+                            <Text style={{ 'display': 'flex' }}>Sprinter
                                 <span style={{ 'display': 'flex', 'marginLeft': '10px', 'display': 'flex', 'alignItems': 'center' }} >
                                     <div className='expImgContainer'>
                                         <Image className='expImage' layout='responsive' src={mauka} />
                                     </div>
-                                    <span style={{ 'color': 'rgb(40, 56, 145)' }}>Mauka</span>
+                                    <span style={{ 'color': 'rgb(40, 56, 145)' }}>Inter-IIIT</span>
                                 </span>
                             </Text>
                         </Tooltip>
 
-                        <Tooltip className="tooltip" content={"Jan \'21 - Present"} placement="right" hideArrow rounded>
-                            <Text style={{ 'display': 'flex' }}>Web Engg Lead
+                        <Tooltip className="tooltip" content={"IIIT Kottayam"} placement="right" hideArrow rounded>
+                            <Text style={{ 'display': 'flex' }}>Captain
                                 <span style={{ 'display': 'flex', 'marginLeft': '10px', 'display': 'flex', 'alignItems': 'center' }} >
                                     <div className='expImgContainer'>
                                         <Image className='expImage' layout='responsive' src={msc} />
                                     </div>
-                                    <span style={{ 'color': 'rgb(1, 118, 211)' }}>MSC KIIT</span>
+                                    <span style={{ 'color': 'rgb(1, 118, 211)' }}>College Basketball Team</span>
                                 </span>
                             </Text>
                         </Tooltip>
 
-                        <Tooltip className="tooltip" content={'Apr \'21 - Present'} placement="right" hideArrow rounded>
-                            <Text style={{ 'display': 'flex' }}>Tech Lead
+                        <Tooltip className="tooltip" placement="right" hideArrow rounded>
+                            <Text style={{ 'display': 'flex' }}>Intern
                                 <span style={{ 'display': 'flex', 'marginLeft': '10px', 'display': 'flex', 'alignItems': 'center' }} >
                                     <div className='expImgContainer'>
                                         <Image className='expImage' layout='responsive' src={mozilla} />
                                     </div>
-                                    <span style={{ 'color': 'rgb(242, 25, 0)' }}>Mozilla BBSR</span>
-                                </span>
-                            </Text>
-                        </Tooltip>
-
-                        <Tooltip className="tooltip" content={'Apr \'21 - Present'} placement="right" hideArrow rounded>
-                            <Text style={{ 'display': 'flex' }}>Web Core
-                                <span style={{ 'display': 'flex', 'marginLeft': '10px', 'display': 'flex', 'alignItems': 'center' }} >
-                                    <div className='expImgContainer'>
-                                        <Image className='expImage' layout='responsive' src={hackclub} />
-                                    </div>
-                                    <span style={{ 'color': '#ec3750' }}>HackClub</span>
+                                    <span style={{ 'color': 'rgb(242, 25, 0)' }}>Puma</span>
                                 </span>
                             </Text>
                         </Tooltip>

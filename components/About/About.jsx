@@ -25,9 +25,9 @@ export default function About() {
                     <Grid xs={12} md={6} className="flex flex-col abt-text-section">
                         <Fade bottom duration={2000}>
                             <p className="about-main-text">All Work, All Play</p>
-                            <p className="about-subtext">I&apos;m a Software Engineer from India 🇮🇳 <br /> You will find me playing around with TypeScript, Golang and sometimes an AWP in Mirage.</p>
+                            <p className="about-subtext">I hail from Thrissur, Kerala 🇮🇳 <br /> You will find me playing on the multicourt or the sports complex and sometimes an AWP in Mirage.</p>
                             <Spacer y={1} />
-                            <Button onClick={getResume} className="about-btn" size="xlarge" shadow color="gradient" auto>Get My Resume</Button>
+                            <Button onClick={getResume} className="about-btn" size="xlarge" shadow color="gradient" auto>Get My Manifesto</Button>
                         </Fade>
 
                     </Grid>

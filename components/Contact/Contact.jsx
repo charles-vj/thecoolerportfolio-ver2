@@ -40,7 +40,7 @@ export default function Contact() {
                         <Button className="contact-btn" size="xlarge" shadow color="gradient" auto type="submit">Send</Button>
                         </form> */}
 
-                            <p className="about-subtext">Drop me a mail on <a href='mailto:hey.arn4b@gmail.com' style={{ 'color': 'rgb(123, 0, 150)' }}>hey.arn4b@gmail.com</a> for any queries. <br /><br />I can also be reached via <a href='https://linkedin.com/in/arn4b' style={{ 'color': '#0072b1' }}>LinkedIn</a> or <a href='https://twitter.com/arn4b_' style={{ 'color': '#1da1f2' }}>Twitter</a>.</p>
+                            <p className="about-subtext">Drop me a mail on <a href='mailto:hey.arn4b@gmail.com' style={{ 'color': 'rgb(123, 0, 150)' }}>charlesv2025@email.iimcal.ac.in</a> for any queries. <br /><br />I can also be reached via <a href='https://www.linkedin.com/in/charles-v-j-641913187/' style={{ 'color': '#0072b1' }}>LinkedIn</a> or <a href='https://twitter.com/Charles_V_J' style={{ 'color': '#1da1f2' }}>Twitter</a>.</p>
                         </Fade>
                     </Grid>
                 </Grid.Container>
